@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomizedSchoolApp</string>
+
+    <!-- Edittext hints-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+
+    <!-- Buttons-->
+    <string name="login">Log In</string>
+</resources>

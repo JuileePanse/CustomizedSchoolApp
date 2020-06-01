@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:gravity="center"
+    tools:context=".activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_school"
+        android:layout_marginBottom="30sp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_below="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext_icon"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_login"
+        android:drawablePadding="20dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:hint="@string/hint_email"
+        android:textColorHint="#7fffffff"
+        />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_below="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext_icon"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="20dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_margin="10dp"
+        android:hint="@string/hint_password"
+        android:textColor="@color/white"
+        android:textColorHint="#7fffffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_password"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="@string/login"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
