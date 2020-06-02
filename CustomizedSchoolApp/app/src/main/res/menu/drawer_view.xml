@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_weekly_schedule"
+            android:icon="@drawable/schedule"
+            android:title="@string/weekly_schedule" />
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@drawable/schedule"
+            android:title="@string/quiz_exam" />
+        <item
+            android:id="@+id/nav_reminders"
+            android:icon="@drawable/schedule"
+            android:title="@string/reminders" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/schedule"
+            android:title="@string/notes" />
+        <item
+            android:id="@+id/nav_attendances"
+            android:icon="@drawable/schedule"
+            android:title="@string/attendances" />
+        <item
+            android:id="@+id/nav_announcements"
+            android:icon="@drawable/schedule"
+            android:title="@string/announcements" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/schedule"
+            android:title="@string/events" />
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/result"
+            android:title="@string/results" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/schedule"
+                    android:title="@string/settings" />
+                <item
+                    android:icon="@drawable/result"
+                    android:title="@string/profile" />
+            </group>
+        </menu>
+    </item>
+</menu>
+
